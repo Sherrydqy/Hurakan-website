@@ -1,0 +1,698 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,200i,400,600,700,800&display=swap');
+/* Home starts*/
+.text-color-umOrange{
+  color: #F47321;
+}
+.text-color-umGreen{
+  color: #005030;
+}
+
+html{
+  font-size: 16px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+  margin:0;
+}
+
+h1{
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin:0;
+  padding-bottom:0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+h2{
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin:0;
+  padding-bottom:0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+p{
+  line-height: 1.7rem;
+  font-size:1.08rem;
+  font-weight: 400;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  width: 100%;
+}
+
+header{
+  height: 4.5rem;
+  padding-top: 1.2rem;
+  padding-left: 3rem;
+  padding-right: 3.2rem;
+  margin-bottom: 1.2rem;
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 2.5rem;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+}
+
+#toggle {
+    display: none;
+}
+
+img[alt="Hurakan Logo"]{
+  width: 19rem;
+}
+
+#hamburger-menu{
+  display:none;
+}
+
+header ul{
+  height: 100%;
+  margin: 0;
+  list-style: none;
+  text-align: right;
+}
+
+
+header li{
+  font-size: 1.14rem;
+  line-height: 4.5rem;
+  text-align: center;
+  display: inline-block;
+  clear: right;
+  margin: 0 10px;
+  font-weight:200;
+}
+
+header a:link{
+  color: #4A4A4A;
+}
+header a:visited{
+  color:inherit;
+}
+header a:hover{
+  color: #F47321;
+}
+header a:active{
+  color: #F17018;
+}
+
+.c_hamburger-menu{
+  display: none;
+  z-index: 0;
+}
+
+#section_home-banner{
+  width: 100%;
+  height: 50rem;
+  color: white;
+  padding-left: 5.5rem;
+  padding-top: 3rem;
+  background-image: url("../assets/homeBannerBg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#section_motivations-bg{
+  padding: 5%;
+  background-image: url("../assets/homeMotivationsBg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.c_section-title{
+  display:inline-block;
+  border-bottom-style: solid;
+  border-bottom-color: #005030;
+  border-bottom-width: 0.2rem;
+}
+
+.c_article-allcontent{
+  padding: 10%;
+  padding-top: 1rem;
+  padding-bottom: 1.2rem;
+}
+
+#article_motivations{
+  background: white;
+  border-radius: 1rem;
+  opacity: 90%;
+  padding: 6%;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+#article_hurakan-bg{
+  background-image: url("../assets/homeHurakanBg-logo.png");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-right:3rem;
+  margin-right: 4.8rem;
+}
+
+#section_home-bottom-links{
+  margin-left: 3rem;
+  margin-right: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 3rem;
+}
+
+.c_home-bottom-links{
+  margin-top: 5rem;
+  padding-left: 2rem;
+  padding-top: 10%;
+}
+
+#home_bottom_link_pub{
+  height: 9rem;
+  background-image: url("../assets/research-placeholder.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#home_bottom_link_press{
+  height: 9rem;
+  background-image: url("../assets/press-placeholder.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#home_bottom_link_team{
+  height: 9rem;
+  background-image: url("../assets/team-placeholder.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#section_home-bottom-links a:link{
+  color:white
+}
+#section_home-bottom-links a:visited{
+  color:white
+}
+#section_home-bottom-links a:hover{
+  color:white
+}
+#section_home-bottom-links a:active{
+  color:white
+}
+
+.c_section_home-content{
+  margin-top:4rem;
+}
+
+#menu_home{
+  color: #F47321;
+  font-weight: 600;
+}
+
+#menu_pub{
+  color: #F47321;
+  font-weight: 600;
+}
+
+#menu_press{
+  color: #F47321;
+  font-weight: 600;
+}
+
+#menu_team{
+  color: #F47321;
+  font-weight: 600;
+}
+
+footer{
+  color: white;
+  height: 13rem;
+  background-color: #4D4D4D;
+  margin: 0;
+  margin-top: 4rem;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  display: grid;
+  grid-template-columns: 1.6fr 2fr 1fr;
+  column-gap: 5rem;
+  bottom: 0;
+}
+
+footer ul{
+  height: 100%;
+  padding: 0;
+  list-style: none;
+}
+
+footer li{
+  font-weight: 400;
+  font-size: 1rem;
+  display: inline-block;
+  margin-right: 0.7rem;
+
+}
+
+footer a:link{
+  color: white;
+}
+footer a:visited{
+  color: white;
+}
+footer a:hover{
+  color: #F47321;
+}
+
+footer a:active{
+  color: white;
+}
+
+#footer_u-link-content{
+  font-weight: 200;
+  color: #D3D3D3;
+}
+
+#footer_link{
+  font-weight: 400;
+}
+
+img[alt="twitter logo"]{
+  display: inline;
+  width:1.5rem;
+}
+
+#twitter-link{
+  display:inline;
+  height: 1.5rem;
+  margin: 0;
+}
+
+.c_footer-menu-separtor{
+  margin-right:0.7rem;
+  font-weight: 200;
+  color: #D3D3D3;
+}
+/* Home ends*/
+
+/* page publications starts*/
+.section_subpage-banner{
+  height:9rem;
+  background-size: cover;
+  padding-left: 10%;
+  padding-top: 6rem;
+  color: white;
+}
+
+.section_subpage-banner > h1{
+    font-size: 2rem;
+    z-index:-1;
+}
+
+#pub_subpage-banner{
+  background-image: url("../assets/pub-banner.png");
+}
+
+#press_subpage-banner{
+  background-image: url("../assets/press-banner.png");
+}
+
+#team_subpage-banner{
+  background-image: url("../assets/team-banner.png");
+}
+
+.c_pub-title{
+  margin-top: 2rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.c_pub-reference{
+  color: #737373;
+  font-size: 0.8rem;
+  font-family: "Times New Roman", serif;
+  line-height: 1.2rem;
+  margin: 0;
+  margin-bottom: 3rem;
+}
+
+.c_link-pub:link{
+  color: #F47321;
+}
+.c_link-pub:visited{
+  color: #F47321;
+}
+.c_link-pub:hover{
+  color: #F47321;
+}
+.c_link-pub:active{
+  color: #F47321;
+}
+
+.c_pub-title + p{
+  font-size: 0.95rem;
+  margin-bottom: 0.8rem;
+}
+
+/* page publications ends*/
+
+/* page press starts*/
+.c_press_metadata p{
+  font-size: 0.75rem;
+  color: #979797;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1rem;
+}
+
+.c_press_metadata strong{
+  color: black;
+}
+
+.c_press_metadata{
+  border-right: 0.01rem solid #B4B4B4;
+  margin-right: 1.5rem;
+}
+
+.c_press_metadata_date{
+  margin-top: 0.52rem;
+}
+
+.c_press_metadata_author{
+  margin-top: 1.02rem;
+}
+
+.c_press_metadata_type{
+  margin-top: 1.52rem;
+}
+
+.c_section_press{
+  margin-top: 4rem;
+  display:grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.c_press_title + p{
+  font-size: 0.95rem;
+}
+.c_press_title{
+  color: #005030;
+}
+
+.c_press-link{
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+/* page press ends*/
+
+/* page team starts*/
+.c_section_team-members{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 5%;
+  grid-row-gap: 1.3%;
+}
+
+.c_article_team-member{
+  padding: 8% 10%;
+  border: 0.005rem solid #E5E5E5;
+  text-align: center;
+}
+
+.c_article_team-member-assoicates{
+  padding: 8% 10%;
+  border: 0.005rem solid #E5E5E5;
+  text-align: center;
+}
+
+.c_img_team-member{
+  border-radius: 100%;
+  width: 40%;
+}
+
+.c_img_team-member-associates{
+  width: 30%;
+}
+
+.c_img_team-member-associates-next{
+  margin-top:2rem;
+  width: 30%;
+}
+
+.c_article_team-member h2{
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+.c_article_team-member h3{
+  font-size: 0.7rem;
+  letter-spacing: 0.17rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  color: #A4A4A4;
+}
+
+.c_article_team-member p{
+  font-size: 0.9rem;
+  margin-top: 0;
+  color: #505050;
+  line-height: 1.4rem;
+}
+
+.c_article_team-member-assoicates h2{
+  margin-top: 1.3rem;
+  margin-bottom: 0;
+}
+
+.c_article_team-member-assoicates h3{
+  font-size: 0.7rem;
+  letter-spacing: 0.17rem;
+  margin-top: 0.3rem;
+  margin-bottom: 1.4rem;
+  color: #A4A4A4;
+}
+
+.c_article_team-member-assoicates p{
+  font-size: 0.9rem;
+  margin-top: 0;
+  color: #505050;
+  line-height: 1.4rem;
+}
+
+.c_team-member-contact{
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.c_team-member-contact a{
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 2rem;
+  height: 2rem;
+}
+
+.c_team-member-contact-associates a{
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.c_team-icon-mail{
+  background-image: url("../assets/icon-mail-unhover.png");
+}
+.c_team-icon-mail:hover{
+  background-image: url("../assets/icon-mail-hover.png");
+}
+
+.c_team-icon-twitter{
+  background-image: url("../assets/icon-twitter-unhover.png");
+}
+.c_team-icon-twitter:hover{
+  background-image: url("../assets/icon-twitter-hover.png");
+}
+
+.c_team-icon-website{
+  background-image: url("../assets/icon-link-unhover.png");
+}
+.c_team-icon-website:hover{
+  background-image: url("../assets/icon-link-hover.png");
+}
+
+.c_section_team-students{
+  margin-top:3.3%;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 1%;
+}
+.c_article_team-student{
+  padding: 8% 4%;
+}
+
+.c_article_team-student h2{
+  font-size: 1.0rem;
+}
+
+.c_article_team-student h3{
+  font-size: 0.7rem;
+  letter-spacing: 0;
+  line-height: 1.4rem;
+  margin-bottom:0;
+}
+
+.c_article_team-student .c_img_team-member{
+  width: 60%;
+}
+/* page team ends*/
+
+@media (max-width: 1170px){
+  html{
+    font-size: 15px;
+  }
+
+  img[alt="Hurakan Logo"]{
+    width: 16rem;
+  }
+
+  header li{
+    font-size: 100%;
+    line-height: 4.3rem;
+  }
+}
+
+@media (max-width: 820px){
+  html{
+    font-size: 14px;
+  }
+
+
+  header{
+    height: 10rem;
+    padding:2rem;
+    margin-bottom: 0rem;
+    text-align:center;
+    display:grid;
+    grid-template-columns: 1fr;
+  }
+
+header li{
+  display:block;
+}
+
+  img[alt="Hurakan Logo"]{
+    width: 60%;
+  }
+
+  .c_section_team-members{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 5%;
+    grid-row-gap: 1.3%;
+  }
+
+  footer{
+    height: 25rem;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .c_section_team-students{
+    margin-top:17rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+    grid-row-gap: 1rem;
+  }
+  .c_article_team-student{
+    padding: 8% 4%;
+  }
+
+  .c_section_press{
+
+    display:grid;
+    grid-template-columns: 1fr;
+  }
+
+
+  .c_press_metadata{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: none;
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .c_press_metadata div{
+    float: right;
+    margin: 0;
+  }
+
+  #section_home-banner{
+    width: 100%;
+    height: 30rem;
+    color: white;
+    padding-left: 5.5rem;
+    padding-top: 3rem;
+    background-image: url("../assets/homeBannerBg-sm.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #section_home-bottom-links{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 3rem;
+  }
+
+  .section_subpage-banner{
+    padding-left: 6%;
+  }
+
+  .c_article-allcontent{
+    padding: 6%;
+  }
+
+label {
+      display: inline-block;
+      cursor: pointer;
+      text-align: center;
+      margin:0;
+  }
+.menu{
+      text-align: center;
+      width: 100%;
+      padding:0;
+      margin:0;
+      display: none;
+      border: 1px solid #a9a9a9;
+      padding-bottom: 1rem;
+      background-color: white;
+      z-index: 100;
+  }
+.menu a {
+      font-size: 1.2rem;
+      display: block;
+      border-bottom: 1px solid #EAEAEB;
+      margin: 0;
+
+  }
+  #toggle:checked + .menu{
+      display: block;
+      background-color: white;
+  }
+}
